@@ -9,4 +9,5 @@ def aWeb(request):
     print("hello world")
     return HttpResponse("Hello!, aweb.完成")
 def bWeb(request):
-    return HttpResponse("Hello!, bweb")
+    print("hello world")
+    return HttpResponse("Hello!, bweb.完成")
