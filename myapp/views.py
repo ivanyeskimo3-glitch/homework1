@@ -6,4 +6,4 @@ def test(request):
 
 def aWeb(request):
     print("hello world")
-    return HttpResponse("Hello!, aweb")
+    return HttpResponse("Hello!, aweb.完成")
