@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from myapp import views
 # user A
+# user B
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.test, name='test'),
 
     path('aweb/', views.aweb, name='aweb'),
+    path('bweb/', views.bWeb, name='bWeb'),
 ]
